@@ -6,8 +6,11 @@ Install the dependencies
 ```
 pip install fastapi
 ```
+```
+pip install uvicorn
+```
  ## To run live server
- Install the dependencies 
+ 
 ```
 uvicorn main:app --reload
 ```
